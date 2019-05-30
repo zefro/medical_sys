@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class CreatePharmaciesTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Run all the migrations.
      *
      * @return void
      */
