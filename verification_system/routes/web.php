@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Meditrack medical_sys
+Auth::routes();
+
+Route::get('/Meditrack', 'HomeController@index')->name('home');
